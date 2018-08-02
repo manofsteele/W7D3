@@ -103,3 +103,23 @@
    text-align: center;
    color: $black;
  }
+
+ ul{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .pokemon-index {
+   width: 200px;
+   height: 200px;
+   display: block;
+   margin: 20px;
+   text-align: center;
+
+   img {
+     width: 75%;
+     height: auto;
+     display: block;
+   }
+ }
